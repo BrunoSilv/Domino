@@ -1,0 +1,15 @@
+1º Fase  do Projeto
+
+1- Processo pai inicia:
+   . instala um handle para o sinal
+   . abre o ficheiro de resultados
+   . regista o tempo inicial
+
+2- Para cada peça da mao:
+   . lança um filho
+
+3- Processo pai aguarda todos os filhos terminar
+   .calcula o tempo de pesquisa e tempo de comunicaçao e imprime e termina
+
+4- Processo filho econtra as sequencias e quando termina a pesquisa sinaliza o pai e escreve as sequencias para o ficheiro e termina
+  
